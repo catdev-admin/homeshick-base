@@ -1,0 +1,9 @@
+if hash vim 2> /dev/null
+then
+	alias vi="vim"
+fi
+
+if hash colordiff 2> /dev/null
+then
+	alias diff="colordiff -u"
+fi

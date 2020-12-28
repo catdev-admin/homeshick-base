@@ -1,0 +1,17 @@
+alias grep="command grep --color=auto"
+
+alias ls="ls -F --color=auto"
+alias ll="ls -lh"
+alias la="ls -lha"
+
+alias ..="cd .."
+alias ...="cd ../.."
+
+alias rgrep="grep -Rn"
+alias hgrep="fc -El 0 | grep"
+alias history="fc -l 1"
+
+alias duf="du -sh"
+alias t="tail -f"
+
+alias external-ip="curl -s -S https://icanhazip.com"
